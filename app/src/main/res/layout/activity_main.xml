@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:orientation="vertical">
+
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingStart="140dp"
+     android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:background="@drawable/blue_color_shape"
+        android:padding="15dp"
+        android:text="     Hi Leo.Whats up?? \n     I need a new logo for group\n\                                                ✓✓"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+     <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="22:30"
+     android:paddingStart="207dp"
+     android:textAlignment="gravity"
+     android:textColor="#A3A2A2"
+     android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_color_shape"
+        android:padding="15dp"
+        android:text="Simple , minimal and baetui...\n                                                ✓✓"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/_22_31"
+         android:paddingStart="207dp"
+         android:textAlignment="gravity"
+         android:textColor="#A3A2A2"
+         android:textSize="16sp" />
+ </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:paddingStart="10dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/lead_color_shape"
+           android:padding="15dp"
+           android:text="Ok I'll start next week\nsend me documents today\n                                         ✓✓"
+           android:textColor="#222121"
+           android:textSize="16sp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/_22_31"
+           android:textAlignment="gravity"
+           android:textColor="#A3A2A2"
+           android:textSize="16sp" />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="140dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_color_shape"
+            android:paddingTop="20dp"
+            android:text="     Oh. That's  great &#128525;	  \n                                                      ✓✓"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22:33"
+            android:paddingStart="207dp"
+            android:textAlignment="gravity"
+            android:textColor="#A3A2A2"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="25dp">
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:padding="10dp"
+            android:inputType="textPersonName"
+            android:drawableStart="@drawable/happy_face"
+            android:drawableEnd="@drawable/ic_baseline_mic_24"
+            android:background="@drawable/edit_text_shape"/>
+    </LinearLayout>
+
+</LinearLayout>
